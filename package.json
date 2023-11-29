@@ -1,0 +1,25 @@
+{
+  "name": "wdp-ui",
+  "version": "1.0.0",
+  "description": "Setup for mock serve and graphql",
+  "scripts": {
+    "mock": "nodemon --watch ./mock-server ./mock-server/index.js"
+  },
+  "author": "Malaiyandi Murugan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "apollo-server-core": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "main": "index.js",
+  "keywords": []
+}
